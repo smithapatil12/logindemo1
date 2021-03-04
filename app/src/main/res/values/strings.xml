@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">logindemo</string>
+    <string name="login">Login</string>
+    <string name="no_of_attemots_reamaning">No of attemots reamaning</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+</resources>

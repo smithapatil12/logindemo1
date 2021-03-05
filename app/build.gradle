@@ -1,9 +1,6 @@
 plugins {
     id 'com.android.application'
-    id 'java-gradle-plugin'
-    id'groovy'
-    id 'jacoco'
-    id'build-dashbord'
+    
 }
 
 android {

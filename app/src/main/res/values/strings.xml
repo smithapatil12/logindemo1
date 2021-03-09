@@ -4,4 +4,14 @@
     <string name="no_of_attemots_reamaning">No of attemots reamaning</string>
     <string name="name">Name</string>
     <string name="password">Password</string>
+    <string name="new_user_sign_up">New User ? Sign up</string>
+    <string name="Name">Name</string>
+    <string name="username">userName</string>
+    <string name="useremail">userEmail</string>
+    <string name="Userpassword">userPassword</string>
+    <string name="Username">userName</string>
+    <string name="Useremail">userEmail</string>
+    <string name="userpassword">userPassword</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in">Already signed in</string>
 </resources>

@@ -42,12 +42,12 @@ public class RegistrationActivity extends AppCompatActivity {
                    firebaseAuth.createUserWithEmailAndPassword(user_email,user_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                        @Override
                        public void onComplete(@NonNull Task<AuthResult> task) {
-                           if (task.isSuccessful()) {
-                               Toast.makeText(RegistrationActivity.this, "registration successful", Toast.LENGTH_SHORT).show();
+                         //  if (task.isSuccessful()) {
+                               Toast.makeText(RegistrationActivity.this,"registration successful",Toast.LENGTH_SHORT).show();
                                startActivity(new Intent(RegistrationActivity.this, MainActivity.class));
-                           } else {
-                               Toast.makeText(RegistrationActivity.this, "registration failed", Toast.LENGTH_SHORT).show();
-                           }
+                         //  } else {
+                        //       Toast.makeText(RegistrationActivity.this, "registration failed", Toast.LENGTH_SHORT).show();
+                         //  }
                        }
                    });
 

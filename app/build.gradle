@@ -42,4 +42,4 @@ dependencies {
     compile 'com.github.jsimone:webapp-runner:8.5.11.3'
 }
 apply plugin: 'com.google.gms.google-services'
-stage.dependon(logindemo)
+

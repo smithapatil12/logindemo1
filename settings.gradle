@@ -1,2 +1,6 @@
 include ':app'
 rootProject.name = "logindemo"
+
+if (INCLUDE_ANDROID == "true") {
+    include 'android', 'android:app'
+}

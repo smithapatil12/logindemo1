@@ -39,5 +39,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation platform('com.google.firebase:firebase-bom:26.6.0')
     implementation 'com.google.firebase:firebase-auth'
+    compile 'com.github.jsimone:webapp-runner:8.5.11.3'
 }
 apply plugin: 'com.google.gms.google-services'
+stage.dependon(logindemo)

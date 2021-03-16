@@ -44,7 +44,5 @@ dependencies {
       testImplementation 'junit:junit:4.12'
       androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
 }
-apply plugin: 'com.google.gms.google-services'
-apply plugin:'com.android.appplication'
-apply plugin:'io.fabric'
-apply plugin:'dexguard'
+apply plugin: 'com.google.gms.google-services:4.0.1'
+

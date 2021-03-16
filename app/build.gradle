@@ -45,4 +45,6 @@ dependencies {
       androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
 }
 apply plugin: 'com.google.gms.google-services'
+task stage(dependsOn:['build','clean'])
+build.mustRunAfter clean
 

@@ -44,5 +44,5 @@ dependencies {
       testImplementation 'junit:junit:4.12'
       androidTestImplementation 'androidx.test.espresso:espresso-core:3.0.2'
 }
-apply plugin: 'com.google.gms.google-services:4.3.5'
+apply plugin: 'com.google.gms.google-services'
 

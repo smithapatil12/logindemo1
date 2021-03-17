@@ -46,3 +46,17 @@ dependencies {
 }
 apply plugin: 'com.google.gms.google-services'
 
+dependencies {
+complie 'com.github.jsimone:webapp-runner:8.5.11.3'
+}
+task stage(){
+dependsOn clean,war
+}
+war.mustRunAfterclean
+task copyToLib(type:copy){
+into "$buildDir/server"
+from(configurations.compile){
+include "webapp-runner*"
+}
+}
+stage.dependsOn(copyToLib)
